@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB1F1897265D39490065DD4A /* HistoryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1F1896265D39490065DD4A /* HistoryCellView.swift */; };
+		BB1F189B265D59B00065DD4A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1F189A265D59B00065DD4A /* Model.swift */; };
 		BBA962E1265BDDE8002CC907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA962E0265BDDE8002CC907 /* AppDelegate.swift */; };
 		BBA962E3265BDDE8002CC907 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA962E2265BDDE8002CC907 /* SceneDelegate.swift */; };
-		BBA962E5265BDDE8002CC907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA962E4265BDDE8002CC907 /* ViewController.swift */; };
-		BBA962E8265BDDE8002CC907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA962E6265BDDE8002CC907 /* Main.storyboard */; };
+		BBA962E5265BDDE8002CC907 /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA962E4265BDDE8002CC907 /* TransferViewController.swift */; };
 		BBA962EA265BDDEA002CC907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA962E9265BDDEA002CC907 /* Assets.xcassets */; };
 		BBA962ED265BDDEA002CC907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA962EB265BDDEA002CC907 /* LaunchScreen.storyboard */; };
+		BBA96307265BFD8E002CC907 /* HorizontalCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA96306265BFD8E002CC907 /* HorizontalCellView.swift */; };
+		BBA9630B265BFF69002CC907 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA9630A265BFF69002CC907 /* Constants.swift */; };
+		BBA96311265C158E002CC907 /* BetweenYourAccounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA96310265C158E002CC907 /* BetweenYourAccounts.swift */; };
+		DDB43BC33F9638EAE2D32371 /* Pods_PerevodiKaspi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D57A61B6CE761D649279E0 /* Pods_PerevodiKaspi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		730E8ECE1C1C72670F49BC6D /* Pods-PerevodiKaspi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerevodiKaspi.release.xcconfig"; path = "Target Support Files/Pods-PerevodiKaspi/Pods-PerevodiKaspi.release.xcconfig"; sourceTree = "<group>"; };
+		81D57A61B6CE761D649279E0 /* Pods_PerevodiKaspi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerevodiKaspi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1F1896265D39490065DD4A /* HistoryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCellView.swift; sourceTree = "<group>"; };
+		BB1F189A265D59B00065DD4A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		BBA962DD265BDDE8002CC907 /* PerevodiKaspi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerevodiKaspi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA962E0265BDDE8002CC907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBA962E2265BDDE8002CC907 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BBA962E4265BDDE8002CC907 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BBA962E7265BDDE8002CC907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBA962E4265BDDE8002CC907 /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
 		BBA962E9265BDDEA002CC907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBA962EC265BDDEA002CC907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBA962EE265BDDEA002CC907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBA96306265BFD8E002CC907 /* HorizontalCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCellView.swift; sourceTree = "<group>"; };
+		BBA9630A265BFF69002CC907 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BBA96310265C158E002CC907 /* BetweenYourAccounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetweenYourAccounts.swift; sourceTree = "<group>"; };
+		ED71FCA81002811BD51732E2 /* Pods-PerevodiKaspi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerevodiKaspi.debug.xcconfig"; path = "Target Support Files/Pods-PerevodiKaspi/Pods-PerevodiKaspi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB43BC33F9638EAE2D32371 /* Pods_PerevodiKaspi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9EAE74B76C0B3FE324902A22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED71FCA81002811BD51732E2 /* Pods-PerevodiKaspi.debug.xcconfig */,
+				730E8ECE1C1C72670F49BC6D /* Pods-PerevodiKaspi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BBA962D4265BDDE8002CC907 = {
 			isa = PBXGroup;
 			children = (
 				BBA962DF265BDDE8002CC907 /* PerevodiKaspi */,
 				BBA962DE265BDDE8002CC907 /* Products */,
+				9EAE74B76C0B3FE324902A22 /* Pods */,
+				E1058841C4A83F70C4A0DAF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,51 @@
 		BBA962DF265BDDE8002CC907 /* PerevodiKaspi */ = {
 			isa = PBXGroup;
 			children = (
+				BBA9630F265C14D8002CC907 /* View */,
+				BBA9630E265C14B0002CC907 /* Controller */,
+				BBA96309265BFF5A002CC907 /* Model */,
 				BBA962E0265BDDE8002CC907 /* AppDelegate.swift */,
 				BBA962E2265BDDE8002CC907 /* SceneDelegate.swift */,
-				BBA962E4265BDDE8002CC907 /* ViewController.swift */,
-				BBA962E6265BDDE8002CC907 /* Main.storyboard */,
 				BBA962E9265BDDEA002CC907 /* Assets.xcassets */,
 				BBA962EB265BDDEA002CC907 /* LaunchScreen.storyboard */,
 				BBA962EE265BDDEA002CC907 /* Info.plist */,
 			);
 			path = PerevodiKaspi;
+			sourceTree = "<group>";
+		};
+		BBA96309265BFF5A002CC907 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BBA9630A265BFF69002CC907 /* Constants.swift */,
+				BB1F189A265D59B00065DD4A /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBA9630E265C14B0002CC907 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BBA962E4265BDDE8002CC907 /* TransferViewController.swift */,
+				BBA96310265C158E002CC907 /* BetweenYourAccounts.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BBA9630F265C14D8002CC907 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBA96306265BFD8E002CC907 /* HorizontalCellView.swift */,
+				BB1F1896265D39490065DD4A /* HistoryCellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1058841C4A83F70C4A0DAF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81D57A61B6CE761D649279E0 /* Pods_PerevodiKaspi.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBA962F1265BDDEA002CC907 /* Build configuration list for PBXNativeTarget "PerevodiKaspi" */;
 			buildPhases = (
+				CFAB3DC541BAE84600A89F89 /* [CP] Check Pods Manifest.lock */,
 				BBA962D9265BDDE8002CC907 /* Sources */,
 				BBA962DA265BDDE8002CC907 /* Frameworks */,
 				BBA962DB265BDDE8002CC907 /* Resources */,
+				D241E18FB6271A954149A96A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +188,72 @@
 			files = (
 				BBA962ED265BDDEA002CC907 /* LaunchScreen.storyboard in Resources */,
 				BBA962EA265BDDEA002CC907 /* Assets.xcassets in Resources */,
-				BBA962E8265BDDE8002CC907 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFAB3DC541BAE84600A89F89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerevodiKaspi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D241E18FB6271A954149A96A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerevodiKaspi/Pods-PerevodiKaspi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerevodiKaspi/Pods-PerevodiKaspi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PerevodiKaspi/Pods-PerevodiKaspi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BBA962D9265BDDE8002CC907 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBA962E5265BDDE8002CC907 /* ViewController.swift in Sources */,
+				BBA96307265BFD8E002CC907 /* HorizontalCellView.swift in Sources */,
+				BBA962E5265BDDE8002CC907 /* TransferViewController.swift in Sources */,
 				BBA962E1265BDDE8002CC907 /* AppDelegate.swift in Sources */,
 				BBA962E3265BDDE8002CC907 /* SceneDelegate.swift in Sources */,
+				BB1F1897265D39490065DD4A /* HistoryCellView.swift in Sources */,
+				BBA9630B265BFF69002CC907 /* Constants.swift in Sources */,
+				BBA96311265C158E002CC907 /* BetweenYourAccounts.swift in Sources */,
+				BB1F189B265D59B00065DD4A /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BBA962E6265BDDE8002CC907 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BBA962E7265BDDE8002CC907 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BBA962EB265BDDEA002CC907 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +383,7 @@
 		};
 		BBA962F2265BDDEA002CC907 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED71FCA81002811BD51732E2 /* Pods-PerevodiKaspi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +403,7 @@
 		};
 		BBA962F3265BDDEA002CC907 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730E8ECE1C1C72670F49BC6D /* Pods-PerevodiKaspi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

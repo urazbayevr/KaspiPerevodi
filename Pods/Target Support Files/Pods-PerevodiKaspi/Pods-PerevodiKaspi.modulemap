@@ -1,0 +1,6 @@
+framework module Pods_PerevodiKaspi {
+  umbrella header "Pods-PerevodiKaspi-umbrella.h"
+
+  export *
+  module * { export * }
+}
